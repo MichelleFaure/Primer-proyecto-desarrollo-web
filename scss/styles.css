@@ -2,8 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #0DCAF0;
   font-family: "Comfortaa", cursive;
+}
+
+body {
+  background-color: #0DCAF0;
 }
 
 .homeproduct a {
@@ -16,18 +19,18 @@
   margin: auto;
 }
 
-.homeenvios a {
+.homeenvios {
   display: flex;
   justify-content: center;
 }
 .homeenvios img {
-  width: 70%;
+  width: 60%;
 }
 
 .boton {
   display: flex;
   justify-content: center;
-  padding-bottom: 30px;
+  margin-bottom: 20px;
   margin-top: 5px;
 }
 
@@ -40,13 +43,9 @@
     padding-left: 7%;
     padding-right: 7%;
   }
-  .homeenvios img {
-    width: 50%;
-    margin-top: 30px;
-  }
   .btn {
     font-size: 30px;
-    margin-top: 10px;
+    padding-top: 10px;
   }
 }
 .form-label {
@@ -59,7 +58,7 @@
   padding-right: 10%;
 }
 
-.logo a {
+.logo {
   display: flex;
   justify-content: center;
 }
@@ -91,17 +90,34 @@
     margin: 20px;
   }
 }
+.opiniones {
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.contenidonosotros h4 {
+  text-align: center;
+  margin-top: 40px;
+}
+
 .footer {
   padding-left: 30%;
   padding-right: 30%;
-  padding-top: 30px;
   border-top: 1px solid white;
 }
 .footer a {
   display: flex;
   justify-content: center;
-  padding: 0;
+  margin-top: 30px;
 }
 .footer img {
-  width: 50%;
+  width: 80%;
+}
+
+.sectionEnvios .card {
+  margin-bottom: 20px;
+}
+.sectionEnvios img {
+  width: 100%;
+  padding: 5px;
 }/*# sourceMappingURL=styles.css.map */

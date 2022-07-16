@@ -13,20 +13,19 @@
 }
 
 .homeenvios{
-    a{
-        display: flex;
-        justify-content: center;
-    }
+    display: flex;
+    justify-content: center;
 
     img{
-        width: 70%;  
+        width: 60%;
     }
+
 }  
  
 .boton{
     display: flex;
     justify-content: center;
-    padding-bottom: 30px;
+    margin-bottom: 20px;
     margin-top: 5px;
 }
 
@@ -44,15 +43,8 @@
         padding-right: 7% ;
     }
     
-    .homeenvios{
-        img{
-            width: 50%; 
-            margin-top: 30px; 
-        }
-    } 
     .btn{
         font-size: 30px;
-        margin-top: 10px;
+        padding-top: 10px;
     }
-        
-     }
+}
