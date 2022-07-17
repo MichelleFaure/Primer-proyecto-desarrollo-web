@@ -1,9 +1,21 @@
 .sectionEnvios{
+   
    .card{
     margin-bottom: 20px;
    }
+
    img{
-    width: 100%;
-    padding: 5px;
+   width: 100%;
+   padding: 5px;
+   }
+
+
+}
+
+@media (min-width:1000px){
+
+   .sectionEnvios{
+      padding-left: 15%;
+      padding-right: 15%;
    }
 }

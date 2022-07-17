@@ -58,6 +58,12 @@ body {
   padding-right: 10%;
 }
 
+@media (min-width: 1000px) {
+  .divContacto {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
 .logo {
   display: flex;
   justify-content: center;
@@ -100,6 +106,19 @@ body {
   margin-top: 40px;
 }
 
+.sectionProductos {
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.sectionProductos .card {
+  margin-top: 5%;
+}
+.sectionProductos img {
+  border: 1px solid rgba(255, 255, 255, 0.219);
+  border-radius: 5px;
+}
+
 .footer {
   padding-left: 30%;
   padding-right: 30%;
@@ -120,4 +139,11 @@ body {
 .sectionEnvios img {
   width: 100%;
   padding: 5px;
+}
+
+@media (min-width: 1000px) {
+  .sectionEnvios {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
 }/*# sourceMappingURL=styles.css.map */
