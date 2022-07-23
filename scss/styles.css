@@ -9,6 +9,20 @@ body {
   background-color: #0DCAF0;
 }
 
+.carrusel {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.homeproduct {
+  padding-left: 7%;
+  padding-right: 7%;
+}
 .homeproduct a {
   justify-content: center;
 }
@@ -35,14 +49,6 @@ body {
 }
 
 @media (min-width: 992px) {
-  .carrusel {
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-  .homeproduct {
-    padding-left: 7%;
-    padding-right: 7%;
-  }
   .btn {
     font-size: 30px;
     padding-top: 10px;
@@ -60,8 +66,8 @@ body {
 
 @media (min-width: 1000px) {
   .divContacto {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 30%;
+    padding-right: 30%;
   }
 }
 .logo {
@@ -90,6 +96,9 @@ body {
 @media (min-width: 992px) {
   .logo img {
     width: 150px;
+  }
+  .navbar {
+    height: 20vh;
   }
   .navbar .nav-link {
     font-size: 25px;
@@ -133,6 +142,11 @@ body {
   width: 80%;
 }
 
+@media (min-width: 700px) {
+  .footer img {
+    width: 30%;
+  }
+}
 .sectionEnvios .card {
   margin-bottom: 20px;
 }
@@ -146,4 +160,9 @@ body {
     padding-left: 15%;
     padding-right: 15%;
   }
+}
+.navbar a:hover {
+  transition-duration: 0.2ss;
+  color: white;
+  border-bottom: 1px solid white;
 }/*# sourceMappingURL=styles.css.map */
