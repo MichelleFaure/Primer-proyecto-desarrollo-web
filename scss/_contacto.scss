@@ -9,6 +9,10 @@
     .form-control{
         background-color: $color-input;
     }
+
+    .btnContacto{
+        @include estiloboton(flex , center , 10px, 3vw);
+    }    
 }
 
 @media (min-width:720px){

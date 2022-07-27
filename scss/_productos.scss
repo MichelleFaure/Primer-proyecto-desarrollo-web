@@ -1,4 +1,4 @@
-.sectionProductos{
+.mainProductos{
     text-align: center;
     margin-left: 15%;
     margin-right: 15%;
@@ -11,6 +11,12 @@
         border: 1px solid $color-borde;
         border-radius: 5px;
     }
+
+    .btnProductos{
+        @include estiloboton(flex , center , 5px, 16px);
+    }
+
+    @extend %estiloTexto;
 }
 
 

@@ -11,7 +11,7 @@ h1{
     }
 
 .homeProduct{
-    margin: 20px 0 27px;
+    margin: 20px 0 0;
     padding: 0 10%;
 
     a{
@@ -37,11 +37,8 @@ h1{
     }
 }  
  
-.boton{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-    margin-top: 5px;
+.btnIndex{
+    @include estiloboton(flex , center , 5px, 3vw);
 }
 
 .postIg{
