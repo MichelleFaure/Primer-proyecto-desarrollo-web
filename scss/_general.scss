@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;  
+
+}
+
+//variables
+$colorpimario:#0DCAF0;
+$coloroverlay: #0dcaf0bb;
+$color-input:rgba(255, 255, 255, 0.288);;
+$colorletras: rgb(238, 244, 245);
+$color-borde:rgba(255, 255, 255, 0.219);
+$color-borde-hover: rgb(255, 255, 255);
+
+
+body{
+    background-color: $colorpimario;
+}
+

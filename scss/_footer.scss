@@ -2,7 +2,8 @@
 .footer{
     padding-left: 30%;
     padding-right: 30%;
-    border-top: 1px solid white;
+    border-top: 1px solid $color-borde;
+    margin-top: 20px;
     
     a{
         display: flex;
@@ -19,7 +20,7 @@
 
     .footer{
         img{
-        width: 30%;
+            width: 30%;
         }
     }
  }
