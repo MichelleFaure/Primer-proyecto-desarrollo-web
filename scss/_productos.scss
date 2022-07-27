@@ -6,12 +6,10 @@
     .card{
         margin-top: 5%;
     }
-
     img{
         border: 1px solid $color-borde;
         border-radius: 5px;
     }
-
     .btnProductos{
         @include estiloboton(flex , center , 5px, 16px);
     }

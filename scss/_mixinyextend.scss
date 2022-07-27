@@ -1,0 +1,35 @@
+    // ESTILO PARA BOTONES
+%btn{
+    border: 2px solid rgba(255, 255, 255, 0.219);
+    color: $colorletras;
+}
+
+@mixin estiloboton($display , $justify , $margin, $fontsize) {
+    display: $display;
+    justify-content: $justify;
+    margin: $margin;
+    .btn{
+        @extend %btn;
+        font-size: $fontsize;
+        &:hover{
+            background-color: $color-borde-hover ;
+            color: $colorpimario;
+            font-weight: bold;
+        }
+    }
+  }
+
+  //ESTILO PARA TEXTO
+%estiloTexto{
+    text-align: justify;
+    .card-title{
+        font-size: 20px;
+        font-weight: bold;
+        color: $colorletras;
+        padding: 5px;
+    }
+    .card-text{
+        font-size: 16px;
+        color: $colorletras;
+    }
+}

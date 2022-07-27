@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Comfortaa', cursive;  
-
+    font-family: 'Comfortaa', cursive;    
 }
 
-//variables
+
+//VARIABLES
 $colorpimario:#0DCAF0;
 $coloroverlay: #0dcaf0bb;
 $color-input:rgba(255, 255, 255, 0.288);;
@@ -18,41 +18,3 @@ $color-borde-hover: rgb(255, 255, 255);
 body{
     background-color: $colorpimario;
 }
-
-//botones
-%btn{
-    border: 2px solid rgba(255, 255, 255, 0.219);
-    color: $colorletras;
-}
-
-@mixin estiloboton($display , $justify , $margin, $fontsize) {
-    display: $display;
-    justify-content: $justify;
-    margin: $margin;
-    .btn{
-        @extend %btn;
-        font-size: $fontsize;
-        &:hover{
-            background-color: $color-borde-hover ;
-            color: $colorpimario;
-            font-weight: bold;
-        }
-    }
-  }
-
-  //estilo para texto
-%estiloTexto{
-    text-align: justify;
-    .card-title{
-        font-size: 20px;
-        font-weight: bold;
-        color: $colorletras ;
-        padding: 5px;
-    }
-    .card-text{
-        font-size: 16px;
-        color: $colorletras ;
-    }
-}
-
-

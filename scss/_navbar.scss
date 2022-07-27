@@ -1,10 +1,7 @@
-
 .logo{
 
     display: flex;
     justify-content: center;
-    
-
     img{
         width: 100px;
         margin-top: 20px;
@@ -18,11 +15,9 @@
     .container-fluid{
         justify-content: center;
     }
-
     .navbar-collapse{
         justify-content: center;
     }
-
     .nav-link{
         font-size: 20px;
     }
@@ -32,12 +27,10 @@
 
 @media (min-width:720px){
     .logo{
-
         img{
             width: 150px;
         }
     }
-
     .navbar{  
         height: 20vh;
         .nav-link{
